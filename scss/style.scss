@@ -1,87 +1,23 @@
 /***** CLEARFIX is applied to the parent of floated elements *************/
 /*************************************************************************/
-
+/* line 4, ../scss/style.scss */
 .clearfix {
-    zoom: 1;
-    &:before, &:after {
-        content: "";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
+  zoom: 1;
 }
-
+/* line 6, ../scss/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 10, ../scss/style.scss */
+.clearfix:after {
+  clear: both;
+}
 /***** SITE STYLES *************/
 /**********************************/
-
-body{
-	
-}
-
-.dropdown{
-
-li{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-}
-
-
-
-
-}
-
-
-
-
-header{
-  background-color:black;
-  display: block;
-
-  li{
-    display: inline-block;
-    list-style-type: none;
-    color:white;
-  }
-
-
-  nav{
-    background-color:black;
-    width: 100%;
-
-  }
-
-  ul{
-
-    background-color:black;
-
-
-
-
-
-  }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* line 18, ../scss/style.scss */
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 
@@ -193,9 +129,9 @@ display: block;
 
 .side1{
 
-    width: 100%;
-    background-image:url('../img/image3.jpg');
-     background-repeat: no-repeat;
+  width: 100%;
+  background-image:url('../img/image3.jpg');
+   background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-top:  0px;
     padding-bottom: 600px;
@@ -218,12 +154,12 @@ display: block;
 
 
 .side2{
-    display: none;
+  display: none;
 }
 
 .secondimage{
-    width: 100%;
-     background-repeat: no-repeat;
+  width: 100%;
+   background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-top:  300px;
     padding-bottom: 300px;
@@ -252,11 +188,6 @@ background-color: transparent;
   float: right;
   font-size: 22px;
   color: red;
-  font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-
-
 
 }
 
@@ -268,6 +199,29 @@ background-color: red;
   cursor: auto;
 
 }
+
+
+
+.secondhalf{
+
+
+h1{
+  text-align: center;
+
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+}
+
+
+
+
+
 
 
 
@@ -289,7 +243,42 @@ background-color: red;
         width: 50%;
 }
 
+.secondhalf{
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom:50px;
 
+
+h1{
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Roboto Slab', serif;
+
+
+
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  text-indent: 20px;
+
+
+}
+
+
+}
+
+
+.pulla{
+  width: 40%;
+  float: left;
+}
+
+.wedda{
+  width: 40%;
+  float: right;
+}
 
 
 
@@ -315,12 +304,8 @@ background-color: transparent;
   float: right;
   font-size: 32px;
   color: red;
-  font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
+
 }
-
-
 
 .brand:hover{
 background-color: red;
@@ -363,9 +348,9 @@ display: block;
 
 
 .side1{
-    width: 50%;
-    background-image:url('../img/image3.jpg');
-     background-repeat: no-repeat;
+  width: 50%;
+  background-image:url('../img/image3.jpg');
+   background-repeat: no-repeat;
     padding-top:  300px;
     padding-bottom: 300px;
     float: left;
@@ -373,9 +358,9 @@ display: block;
 }
 
 .side2{
-    width: 50%;
-    background-image:url('../img/pullbrandclip.png');
-     background-repeat: no-repeat;
+  width: 50%;
+  background-image:url('../img/pullbrandclip.png');
+   background-repeat: no-repeat;
     padding-top:  300px;
     padding-bottom: 300px;
     display: block;
@@ -393,8 +378,6 @@ display: block;
 
 }
 /*end of 800 */
-
-
 @media screen and (min-width: 1000px) {
   /* line 106, ../scss/style.scss */
 
@@ -405,14 +388,3 @@ display: block;
 
 }
 /*end of 1200 */
-
-
-
-
-
-
-
-
-
-
-

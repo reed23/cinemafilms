@@ -1,55 +1,38 @@
 /***** CLEARFIX is applied to the parent of floated elements *************/
 /*************************************************************************/
 /* line 4, ../scss/style.scss */
+/* line 4, ../scss/style.scss */
 .clearfix {
   zoom: 1;
 }
+
 /* line 6, ../scss/style.scss */
+/* line 8, ../scss/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
+
 /* line 10, ../scss/style.scss */
+/* line 13, ../scss/style.scss */
 .clearfix:after {
   clear: both;
 }
 
 /***** SITE STYLES *************/
 /**********************************/
-/* line 24, ../scss/style.scss */
-.dropdown li {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  font-size: 24px;
-}
+/* line 18, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
 
-/* line 38, ../scss/style.scss */
-header {
-  background-color: black;
-  display: block;
-}
-/* line 42, ../scss/style.scss */
-header li {
-  display: inline-block;
-  list-style-type: none;
-  color: white;
-}
-/* line 49, ../scss/style.scss */
-header nav {
-  background-color: black;
-  width: 100%;
-}
-/* line 55, ../scss/style.scss */
-header ul {
-  background-color: black;
-}
 
-/* line 83, ../scss/style.scss */
+
+
+
 body {
   margin: 0px;
 }
 
-/* line 88, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 .hvr-sweep-to-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -66,7 +49,7 @@ body {
   transition-duration: 0.3s;
 }
 
-/* line 108, ../scss/style.scss */
+/* line 44, ../scss/style.scss */
 .hvr-sweep-to-bottom:before {
   content: "";
   position: absolute;
@@ -88,23 +71,23 @@ body {
   transition-timing-function: ease-out;
 }
 
-/* line 145, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 .overlay:hover {
   background-color: black;
   opacity: 1.5;
 }
 
-/* line 151, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 .logo {
   display: none;
 }
 
-/* line 155, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .logo-mobile {
   max-width: 35%;
 }
 
-/* line 159, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .middle {
   width: 100%;
   position: absolute;
@@ -112,7 +95,7 @@ body {
   margin-top: 200px;
 }
 
-/* line 169, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 .middle img {
   width: 30%;
   position: relative;
@@ -123,7 +106,7 @@ body {
   margin: 0 auto;
 }
 
-/* line 179, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 .middle p {
   color: white;
   width: 100%;
@@ -136,7 +119,7 @@ body {
   background-color: black;
 }
 
-/* line 194, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .side1 {
   width: 100%;
   background-image: url("../img/image3.jpg");
@@ -147,19 +130,19 @@ body {
   float: left;
 }
 
-/* line 213, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 .button_holder {
   display: block;
   margin: 0 auto;
   width: 100%;
 }
 
-/* line 220, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 .side2 {
   display: none;
 }
 
-/* line 224, ../scss/style.scss */
+/* line 160, ../scss/style.scss */
 .secondimage {
   width: 100%;
   background-repeat: no-repeat;
@@ -169,7 +152,7 @@ body {
   float: left;
 }
 
-/* line 233, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .wed {
   background-color: transparent;
   border: 1px solid white;
@@ -178,7 +161,7 @@ body {
   color: white;
 }
 
-/* line 242, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 .wed:hover {
   background-color: red;
   border: 1px solid white;
@@ -186,19 +169,16 @@ body {
   font-size: 22px;
 }
 
-/* line 249, ../scss/style.scss */
+/* line 185, ../scss/style.scss */
 .brand {
   background-color: transparent;
   border: 1px solid white;
   float: right;
   font-size: 22px;
   color: red;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  font-size: 24px;
 }
 
-/* line 263, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .brand:hover {
   background-color: red;
   border: 1px solid white;
@@ -207,20 +187,60 @@ body {
   cursor: auto;
 }
 
+/* line 208, ../scss/style.scss */
+.secondhalf h1 {
+  text-align: center;
+}
+/* line 213, ../scss/style.scss */
+.secondhalf p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media screen and (min-width: 600px) {
   /* line 51, ../scss/style.scss */
 }
 /* end of 600 */
 @media screen and (min-width: 800px) {
   /* line 76, ../scss/style.scss */
-  /* line 286, ../scss/style.scss */
+  /* line 240, ../scss/style.scss */
   .button_holder {
     display: block;
     margin: 0 auto;
     width: 50%;
   }
 
-  /* line 296, ../scss/style.scss */
+  /* line 246, ../scss/style.scss */
+  .secondhalf {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  /* line 252, ../scss/style.scss */
+  .secondhalf h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+  }
+  /* line 261, ../scss/style.scss */
+  .secondhalf p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    text-indent: 20px;
+  }
+
+  /* line 273, ../scss/style.scss */
+  .pulla {
+    width: 40%;
+    float: left;
+  }
+
+  /* line 278, ../scss/style.scss */
+  .wedda {
+    width: 40%;
+    float: right;
+  }
+
+  /* line 285, ../scss/style.scss */
   .wed {
     background-color: transparent;
     border: 1px solid white;
@@ -229,7 +249,7 @@ body {
     color: white;
   }
 
-  /* line 305, ../scss/style.scss */
+  /* line 294, ../scss/style.scss */
   .wed:hover {
     background-color: red;
     border: 1px solid white;
@@ -237,19 +257,16 @@ body {
     font-size: 32px;
   }
 
-  /* line 312, ../scss/style.scss */
+  /* line 301, ../scss/style.scss */
   .brand {
     background-color: transparent;
     border: 1px solid white;
     float: right;
     font-size: 32px;
     color: red;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
   }
 
-  /* line 325, ../scss/style.scss */
+  /* line 310, ../scss/style.scss */
   .brand:hover {
     background-color: red;
     border: 1px solid white;
@@ -258,7 +275,7 @@ body {
     cursor: auto;
   }
 
-  /* line 335, ../scss/style.scss */
+  /* line 320, ../scss/style.scss */
   .middle img {
     width: 10%;
     position: relative;
@@ -269,12 +286,12 @@ body {
     margin: 0 auto;
   }
 
-  /* line 350, ../scss/style.scss */
+  /* line 335, ../scss/style.scss */
   .logo-mobile {
     display: none;
   }
 
-  /* line 355, ../scss/style.scss */
+  /* line 340, ../scss/style.scss */
   .logo {
     max-width: 25%;
     margin-right: 50px;
@@ -282,7 +299,7 @@ body {
     display: inline-block;
   }
 
-  /* line 365, ../scss/style.scss */
+  /* line 350, ../scss/style.scss */
   .side1 {
     width: 50%;
     background-image: url("../img/image3.jpg");
@@ -293,7 +310,7 @@ body {
     height: auto;
   }
 
-  /* line 375, ../scss/style.scss */
+  /* line 360, ../scss/style.scss */
   .side2 {
     width: 50%;
     background-image: url("../img/pullbrandclip.png");
