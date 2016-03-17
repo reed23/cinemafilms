@@ -36,14 +36,21 @@ nav { width: 100%; }
 
 .btn:hover { transition: all 0.1s ease; }
 
+<<<<<<< HEAD
 main {
+=======
+.main {
+>>>>>>> 2184627f86d725e323b6f023e9eb4d62cbf738ac
   max-width: 800px;
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 main p {  1.2em;
 }
 
+=======
+>>>>>>> 2184627f86d725e323b6f023e9eb4d62cbf738ac
 #search {
   float: right;
   font-size: 30px;
