@@ -8,26 +8,7 @@
 	height: auto;
 }
 
-.highlight{ 
 
-background: url(img/pattern23.jpg) top left repeat, url(img/pattern23.jpg) top left no-repeat ;
-
-
-background-attachment: fixed;
-
-background-position: top left;
-
--webkit-background-size: cover;
-
--moz-background-size: cover;
-
--o-background-size: cover;
-
-background-size: cover;
-
-font: 12px Arial, Tahoma, Georgia, "Times New Roman", Times, serif;
-
-}
 
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
@@ -149,10 +130,7 @@ color: #fff;
 text-decoration: none;
 border-bottom: dotted 2px #fff;
 }
-a:hover,a:active,a:focus {
-color: #fff;
-border-bottom: solid 2px #fff;
-}
+
 section {
 padding: 10% 5%;
 width: 100%;
