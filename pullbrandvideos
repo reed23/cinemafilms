@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cinema Films</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/cinemawedding.css" />
+
+    
+    <script src="js/video.js"></script>
+     <script src="js/modern.js"></script>
+  </head>
+  <body>
+   <div class ="my-nav">
+    <div class ="nav-clamp clearfix">  
+    <img class ="logo-img" img src="img/clearlogo.png">
+<nav>
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Work</a></li>
+    <li><a href="">Contact</a></li>
+  </ul>
+</nav>
+</div> <!--end of nav-clamp -->
+
+
+
+
+   </div>
+
+<div class ="my-container">
+    <video id ="myvideo" video poster = "img/image13.jpg"  ="true" loop autoplay>
+      <source src ="img/video1.mp4" type ="video/mp4">
+         <source src ="img/video1.webm" type ="video/webm">
+     </video>
+
+  <div class ="text-box"><h1>Tell Us Your Story</h1></div>
+
+    </div> <!--end of my-container -->
+
+
+
+
+<div class="section group row1">
+  <div class="col span_1_of_2">
+ <h1>Who Are We</h1>
+ <p>
+I started shooting weddings in 2005. Back then all I did was record what happened. I learned over the years that there was much more to be done. Who is this couple? Why is everyone so happy for them? The work needed to be different. That’s when I changed from making Videos to making Films in 2011. It became less about the things or what was happening and became more about the people. Businesses, products, and organizations are the same way. They’re about the people. They’re about making a connection. And frankly, telling that brand story is what is important. What most people need is not marketing or branding, it’s getting to the heart of who you are and sharing that heart with the world.
+The reason I called the company Cinema Couture is that every film has its own personality. Every wedding couple wants their story told a little differently. Every event is about something. Every product or business is unique. I understand how to find that story and customize a film that reflects your true personality.</p>
+ <button>See Wedding Films</button>
+  </div>
+  <div class="col span_1_of_2">
+ <h1>Bill Grant (Ceo)</h1>
+ <img src="img/billgrant.jpg">
+  </div>
+</div>
+
+<div class ="img-section">
+  <div class ="img1">
+    <img src="img/wed-img2.png">
+   <div class ="inside-pic"> <h1>Wedding Films</h1></div>
+<div class ="overlay1"></div>
+
+  </div>
+
+
+   <div class ="img2">
+    <div class ="inside-pic2"> <h1>Pull Brand Stories</h1></div>
+    <div class ="overlay2"></div>
+    
+    <img src="img/pullpic2.png">
+
+
+  </div>
+
+
+</div> <!--end of img-section -->
+
+
+
+
+
+
+
+
+
+      </body>
+                
+                  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+                  
+                  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+                 
+                </body>
+              </html>
