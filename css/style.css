@@ -19,88 +19,101 @@
   clear: both;
 }
 
-/* line 20, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
 .my-footer img {
   max-width: 200px;
   width: 50%;
 }
 
 @media (max-width: 600px) {
-  /* line 30, ../scss/style.scss */
+  /* line 29, ../scss/style.scss */
   .my-footer {
+    background-color: #5d5e5f;
     width: 100%;
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
-  /* line 33, ../scss/style.scss */
+  /* line 35, ../scss/style.scss */
   .my-footer img {
     max-width: 200px;
     width: 50%;
   }
-  /* line 38, ../scss/style.scss */
+  /* line 40, ../scss/style.scss */
   .my-footer a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     display: inline-block;
     text-align: center;
-    margin: 0px 0px;
+    margin: 0px 10px;
+    color: white;
+    font-family: 'Lato' sans-serif;
   }
-  /* line 45, ../scss/style.scss */
+  /* line 49, ../scss/style.scss */
   .my-footer li {
     list-style-type: none;
     display: inline-block;
   }
-  /* line 49, ../scss/style.scss */
+  /* line 53, ../scss/style.scss */
   .my-footer p {
     font-family: 'Lato' sans-serif;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  /* line 59, ../scss/style.scss */
+  .my-footer ul {
+    margin-left: -40px;
+    margin-bottom: 25px;
   }
 
-  /* line 57, ../scss/style.scss */
+  /* line 70, ../scss/style.scss */
   .left {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
-  /* line 61, ../scss/style.scss */
+  /* line 74, ../scss/style.scss */
   .right {
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  /* line 65, ../scss/style.scss */
+  /* line 78, ../scss/style.scss */
   .big-video {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
-  /* line 72, ../scss/style.scss */
+  /* line 85, ../scss/style.scss */
   .bottom-wrapper {
     width: 90%;
     margin: 0 auto;
   }
 
-  /* line 76, ../scss/style.scss */
+  /* line 89, ../scss/style.scss */
   .cl-effect-5 {
     display: none;
   }
 
-  /* line 79, ../scss/style.scss */
+  /* line 92, ../scss/style.scss */
   .desktop-nav {
     display: none;
   }
 
-  /* line 82, ../scss/style.scss */
+  /* line 95, ../scss/style.scss */
   .second-section {
     background: url(../img/whitebg.png);
     width: 100%;
     padding-top: 10px;
   }
 
-  /* line 87, ../scss/style.scss */
+  /* line 100, ../scss/style.scss */
   .highlight {
     text-align: center;
     width: 100%;
   }
-  /* line 90, ../scss/style.scss */
+  /* line 103, ../scss/style.scss */
   .highlight h1 {
     font-size: 2.0em;
     font-family: 'Lato', sans-serif;
@@ -109,29 +122,30 @@
     text-align: center;
     color: black;
   }
-  /* line 98, ../scss/style.scss */
+  /* line 111, ../scss/style.scss */
   .highlight p {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 20px;
   }
 
-  /* line 104, ../scss/style.scss */
+  /* line 117, ../scss/style.scss */
   .white-nav {
     width: 100%;
     background-color: white;
     padding-top: 25px;
     position: fixed;
     top: 0px;
+    z-index: 100;
   }
 
-  /* line 111, ../scss/style.scss */
+  /* line 126, ../scss/style.scss */
   .logo-img {
     max-width: 150px;
     float: left;
   }
 
-  /* line 115, ../scss/style.scss */
+  /* line 130, ../scss/style.scss */
   .mainpic {
     position: relative;
     margin: 0 auto;
@@ -145,11 +159,11 @@
     opacity: 2.5;
   }
 
-  /* line 127, ../scss/style.scss */
+  /* line 142, ../scss/style.scss */
   .whitebox {
     margin-top: 200px;
   }
-  /* line 129, ../scss/style.scss */
+  /* line 144, ../scss/style.scss */
   .whitebox h2 {
     font-size: 2.5em;
     font-family: 'Open Sans', sans-serif;
@@ -160,7 +174,7 @@
     text-align: none;
     color: white;
   }
-  /* line 139, ../scss/style.scss */
+  /* line 154, ../scss/style.scss */
   .whitebox button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -173,43 +187,73 @@
     padding: 8px 20px;
     box-shadow: 0px 0px 25px #000;
   }
-  /* line 151, ../scss/style.scss */
+  /* line 166, ../scss/style.scss */
   .whitebox p {
-    margin-top: -5px;
+    margin-top: -25px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
   }
 }
 @media (min-width: 600px) {
-  /* line 161, ../scss/style.scss */
+  /* line 183, ../scss/style.scss */
   .my-footer {
+    background-color: #5d5e5f;
     width: 100%;
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
-  /* line 164, ../scss/style.scss */
+  /* line 189, ../scss/style.scss */
   .my-footer img {
     max-width: 200px;
     width: 50%;
   }
-  /* line 169, ../scss/style.scss */
+  /* line 194, ../scss/style.scss */
   .my-footer a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     display: inline-block;
     text-align: center;
-    margin: 0px 0px;
+    margin: 0px 20px;
+    color: white;
+    font-family: 'Lato' sans-serif;
   }
-  /* line 176, ../scss/style.scss */
+  /* line 203, ../scss/style.scss */
   .my-footer li {
     list-style-type: none;
     display: inline-block;
   }
-  /* line 180, ../scss/style.scss */
+  /* line 207, ../scss/style.scss */
   .my-footer p {
     font-family: 'Lato' sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+  /* line 212, ../scss/style.scss */
+  .my-footer ul {
+    margin-left: -40px;
+    margin-bottom: 25px;
   }
 
-  /* line 186, ../scss/style.scss */
+  /* line 220, ../scss/style.scss */
+  .left {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 224, ../scss/style.scss */
+  .right {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 228, ../scss/style.scss */
+  .big-video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 240, ../scss/style.scss */
   .big-video {
     position: relative;
     padding-bottom: 56.25%;
@@ -218,7 +262,7 @@
     margin-bottom: 10px;
   }
 
-  /* line 194, ../scss/style.scss */
+  /* line 248, ../scss/style.scss */
   .big-video iframe,
   .big-video object,
   .big-video embed {
@@ -229,43 +273,44 @@
     height: 100%;
   }
 
-  /* line 208, ../scss/style.scss */
+  /* line 262, ../scss/style.scss */
   .bottom-wrapper {
     width: 95%;
     margin: 0 auto;
   }
 
-  /* line 212, ../scss/style.scss */
+  /* line 266, ../scss/style.scss */
   .cl-effect-5 {
     display: none;
   }
 
-  /* line 215, ../scss/style.scss */
+  /* line 269, ../scss/style.scss */
   .left {
     float: left;
     width: 45%;
     height: auto;
   }
 
-  /* line 220, ../scss/style.scss */
+  /* line 274, ../scss/style.scss */
   .right {
     float: right;
     width: 45%;
     height: auto;
   }
 
-  /* line 225, ../scss/style.scss */
+  /* line 279, ../scss/style.scss */
   .second-section {
     background: url(../img/whitebg.png);
     padding-top: 10px;
+    padding-bottom: 25px;
   }
 
-  /* line 229, ../scss/style.scss */
+  /* line 284, ../scss/style.scss */
   .highlight {
     width: 100%;
     background: url(../img/whitebg.png) no-repeat 0 0;
   }
-  /* line 232, ../scss/style.scss */
+  /* line 287, ../scss/style.scss */
   .highlight h1 {
     font-size: 2.3em;
     font-family: 'Lato', sans-serif;
@@ -274,34 +319,30 @@
     text-align: center;
     color: black;
   }
-  /* line 240, ../scss/style.scss */
+  /* line 295, ../scss/style.scss */
   .highlight p {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 20px;
   }
 
-  /* line 246, ../scss/style.scss */
-  .logo-img {
-    max-width: 200px;
-  }
-
-  /* line 249, ../scss/style.scss */
+  /* line 302, ../scss/style.scss */
   .white-nav {
     width: 100%;
     background-color: white;
     padding-top: 25px;
     position: fixed;
     top: 0px;
+    z-index: 100;
   }
 
-  /* line 256, ../scss/style.scss */
+  /* line 311, ../scss/style.scss */
   .logo-img {
-    max-width: 150px;
+    max-width: 250px;
     float: left;
   }
 
-  /* line 260, ../scss/style.scss */
+  /* line 315, ../scss/style.scss */
   .mainpic {
     position: relative;
     margin: 0 auto;
@@ -310,42 +351,53 @@
     background: url(../img/image8.jpg) no-repeat 0 0;
     background-size: cover;
     -webkit-font-smoothing: antialiased;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
     opacity: 2.5;
   }
 
-  /* line 272, ../scss/style.scss */
+  /* line 327, ../scss/style.scss */
   .whitebox {
-    margin-top: 50px;
+    margin-top: 0px;
   }
-  /* line 274, ../scss/style.scss */
+  /* line 329, ../scss/style.scss */
   .whitebox h2 {
-    font-size: 3.5em;
+    font-size: 4.0em;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: -3px;
     font-weight: 800;
     -webkit-font-smoothing: antialiased;
-    text-shadow: 0px 0px 10px #000;
+    text-shadow: 0px 0px 20px #000;
     text-align: none;
     color: white;
   }
-  /* line 284, ../scss/style.scss */
+  /* line 339, ../scss/style.scss */
   .whitebox button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-decoration: none;
     color: #fff;
-    font-size: .87em;
+    font-size: 0.9em;
     letter-spacing: 5px;
     -webkit-font-smoothing: antialiased;
     background: #fe5a5a;
-    padding: 8px 20px;
+    padding: 10px 15px;
     box-shadow: 0px 0px 25px #000;
+  }
+  /* line 351, ../scss/style.scss */
+  .whitebox p {
+    margin-top: -35px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
   }
 }
 @media (min-width: 800px) {
-  /* line 300, ../scss/style.scss */
+  /* line 361, ../scss/style.scss */
+  .nav__trigger {
+    display: none;
+  }
+
+  /* line 367, ../scss/style.scss */
   .big-video {
     position: relative;
     padding-bottom: 30.25%;
@@ -354,7 +406,7 @@
     margin-bottom: 10px;
   }
 
-  /* line 308, ../scss/style.scss */
+  /* line 375, ../scss/style.scss */
   .big-video iframe,
   .big-video object,
   .big-video embed {
@@ -365,28 +417,29 @@
     height: 100%;
   }
 
-  /* line 319, ../scss/style.scss */
+  /* line 386, ../scss/style.scss */
   .cl-effect-5 {
     display: block;
+    margin-left: 200px;
   }
 }
-/* line 324, ../scss/style.scss */
+/* line 392, ../scss/style.scss */
 .overlay:hover {
   background-color: black;
   opacity: 1.5;
 }
 
-/* line 328, ../scss/style.scss */
+/* line 396, ../scss/style.scss */
 .logo {
   display: none;
 }
 
-/* line 331, ../scss/style.scss */
+/* line 399, ../scss/style.scss */
 .logo-mobile {
   max-width: 35%;
 }
 
-/* line 334, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
 .middle {
   width: 100%;
   position: absolute;
@@ -394,19 +447,19 @@
   margin-top: 200px;
 }
 
-/* line 340, ../scss/style.scss */
+/* line 408, ../scss/style.scss */
 .button_holder {
   display: block;
   margin: 0 auto;
   width: 100%;
 }
 
-/* line 345, ../scss/style.scss */
+/* line 413, ../scss/style.scss */
 .side2 {
   display: none;
 }
 
-/* line 348, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 .secondimage {
   width: 100%;
   background-repeat: no-repeat;
@@ -416,7 +469,7 @@
   float: left;
 }
 
-/* line 356, ../scss/style.scss */
+/* line 424, ../scss/style.scss */
 .wed {
   background-color: transparent;
   border: 1px solid white;
@@ -426,7 +479,7 @@
   font-family: 'Roboto Slab', sans-serif;
 }
 
-/* line 364, ../scss/style.scss */
+/* line 432, ../scss/style.scss */
 .wed:hover {
   background-color: red;
   border: 1px solid white;
@@ -434,7 +487,7 @@
   font-size: 22px;
 }
 
-/* line 370, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 .brand {
   background-color: transparent;
   border: 1px solid red;
@@ -444,7 +497,7 @@
   font-family: 'Roboto Slab', sans-serif;
 }
 
-/* line 378, ../scss/style.scss */
+/* line 446, ../scss/style.scss */
 .brand:hover {
   background-color: red;
   border: 1px solid red;
@@ -453,51 +506,45 @@
   cursor: auto;
 }
 
-/* line 386, ../scss/style.scss */
+/* line 454, ../scss/style.scss */
 .secondhalf h1 {
   text-align: center;
 }
-/* line 388, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 .secondhalf h1 p {
   font-family: 'Roboto Slab', sans-serif;
 }
-/* line 392, ../scss/style.scss */
-.secondhalf .whitebox {
-  background-color: blue;
-  opacity: 0.5;
-  position: fixed;
-}
-/* line 397, ../scss/style.scss */
+/* line 461, ../scss/style.scss */
 .secondhalf .button_holder {
   display: block;
   margin: 0 auto;
   width: 50%;
 }
-/* line 402, ../scss/style.scss */
+/* line 466, ../scss/style.scss */
 .secondhalf .secondhalf {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 50px;
 }
-/* line 406, ../scss/style.scss */
+/* line 470, ../scss/style.scss */
 .secondhalf .secondhalf h1 {
   text-align: center;
   font-size: 32px;
   font-family: 'Roboto Slab', serif;
 }
-/* line 411, ../scss/style.scss */
+/* line 475, ../scss/style.scss */
 .secondhalf .secondhalf p {
   font-family: 'Roboto Slab', sans-serif;
   line-height: 30px;
   text-indent: 20px;
   text-align: center;
 }
-/* line 418, ../scss/style.scss */
+/* line 482, ../scss/style.scss */
 .secondhalf .pulla {
   width: 40%;
   float: left;
 }
-/* line 421, ../scss/style.scss */
+/* line 485, ../scss/style.scss */
 .secondhalf .pulla button {
   background-color: transparent;
   border: 1px solid red;
@@ -505,13 +552,13 @@
   color: red;
   font-family: 'Roboto Slab', sans-serif;
 }
-/* line 429, ../scss/style.scss */
+/* line 493, ../scss/style.scss */
 .secondhalf .wedda {
   width: 40%;
   float: right;
   font-family: 'Roboto Slab', sans-serif;
 }
-/* line 434, ../scss/style.scss */
+/* line 498, ../scss/style.scss */
 .secondhalf .wed {
   background-color: transparent;
   border: 1px solid white;
@@ -520,14 +567,14 @@
   color: white;
   font-family: 'Roboto Slab', sans-serif;
 }
-/* line 442, ../scss/style.scss */
+/* line 506, ../scss/style.scss */
 .secondhalf .wed:hover {
   background-color: red;
   border: 1px solid white;
   color: white;
   font-size: 24px;
 }
-/* line 448, ../scss/style.scss */
+/* line 512, ../scss/style.scss */
 .secondhalf .brand {
   background-color: transparent;
   border: 1px solid red;
@@ -536,7 +583,7 @@
   color: red;
   font-family: 'Roboto Slab', sans-serif;
 }
-/* line 456, ../scss/style.scss */
+/* line 520, ../scss/style.scss */
 .secondhalf .brand:hover {
   background-color: red;
   border: 1px solid red;
@@ -544,7 +591,7 @@
   font-size: 24px;
   cursor: auto;
 }
-/* line 463, ../scss/style.scss */
+/* line 527, ../scss/style.scss */
 .secondhalf .middle img {
   width: 10%;
   position: relative;
@@ -554,18 +601,18 @@
   display: block;
   margin: 0 auto;
 }
-/* line 472, ../scss/style.scss */
+/* line 536, ../scss/style.scss */
 .secondhalf .logo-mobile {
   display: none;
 }
-/* line 475, ../scss/style.scss */
+/* line 539, ../scss/style.scss */
 .secondhalf .logo {
   max-width: 25%;
   margin-right: 50px;
   max-height: 100px;
   display: inline-block;
 }
-/* line 481, ../scss/style.scss */
+/* line 545, ../scss/style.scss */
 .secondhalf .side1 {
   width: 50%;
   background-image: url("../img/image3.jpg");
@@ -575,7 +622,7 @@
   float: left;
   height: auto;
 }
-/* line 490, ../scss/style.scss */
+/* line 554, ../scss/style.scss */
 .secondhalf .side2 {
   width: 50%;
   background-image: url("../img/pullbrandclip.png");
@@ -586,23 +633,57 @@
   float: right;
   background-size: 100% 100%;
 }
+/* line 565, ../scss/style.scss */
+.secondhalf .whitebox {
+  margin-top: 50px;
+}
+/* line 567, ../scss/style.scss */
+.secondhalf .whitebox h2 {
+  font-size: 4.0em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -3px;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0px 0px 20px #000;
+  text-align: none;
+  color: white;
+}
+/* line 577, ../scss/style.scss */
+.secondhalf .whitebox button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  -webkit-font-smoothing: antialiased;
+  background: #fe5a5a;
+  padding: 16px 40px;
+  box-shadow: 0px 0px 25px #000;
+}
+/* line 589, ../scss/style.scss */
+.secondhalf .whitebox p {
+  margin-top: -35px;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+}
 
 @media (min-width: 1000px) {
-  /* line 505, ../scss/style.scss */
+  /* line 601, ../scss/style.scss */
   .bottom-wrapper {
     width: 75%;
     margin: 0 auto;
   }
 
-  /* line 510, ../scss/style.scss */
+  /* line 606, ../scss/style.scss */
   .left-column {
     float: left;
-    width: 45%;
+    width: 48%;
   }
 
-  /* line 515, ../scss/style.scss */
+  /* line 611, ../scss/style.scss */
   .right-column {
     float: right;
-    width: 45%;
+    width: 48%;
   }
 }
