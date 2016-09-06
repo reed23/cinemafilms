@@ -521,9 +521,15 @@ body, html {
   /* line 420, ../scss/cinemawedding.scss */
   .first-ul li {
     float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  /* line 425, ../scss/cinemawedding.scss */
+  .first-ul a {
+    font-size: 20px;
   }
 
-  /* line 425, ../scss/cinemawedding.scss */
+  /* line 430, ../scss/cinemawedding.scss */
   .overlay1 {
     display: none;
     position: absolute;
@@ -536,135 +542,135 @@ body, html {
     background-color: black;
   }
 
-  /* line 436, ../scss/cinemawedding.scss */
+  /* line 441, ../scss/cinemawedding.scss */
   .img1:hover > .overlay1 {
     display: block;
   }
 
-  /* line 440, ../scss/cinemawedding.scss */
+  /* line 445, ../scss/cinemawedding.scss */
   .row9 {
     width: 80%;
     padding: 1em;
     margin: 0 auto;
   }
 
-  /* line 445, ../scss/cinemawedding.scss */
+  /* line 450, ../scss/cinemawedding.scss */
   .row4, .row5, .row6, .row7, .row8 {
     width: 80%;
     padding: 1em;
     margin: 0 auto;
   }
-  /* line 449, ../scss/cinemawedding.scss */
+  /* line 454, ../scss/cinemawedding.scss */
   .row4 img, .row5 img, .row6 img, .row7 img, .row8 img {
     width: 100%;
   }
 
-  /* line 453, ../scss/cinemawedding.scss */
+  /* line 458, ../scss/cinemawedding.scss */
   .wed-section1, .wed-section2 {
     width: 80%;
     padding: 1em;
     margin: 0 auto;
   }
-  /* line 457, ../scss/cinemawedding.scss */
+  /* line 462, ../scss/cinemawedding.scss */
   .wed-section1 h1, .wed-section2 h1 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
   }
 
-  /* line 463, ../scss/cinemawedding.scss */
+  /* line 468, ../scss/cinemawedding.scss */
   .my-form input {
     width: 100%;
     border: 1px solid red;
     margin-bottom: 10px;
   }
 
-  /* line 469, ../scss/cinemawedding.scss */
+  /* line 474, ../scss/cinemawedding.scss */
   .left-foot {
     width: 70%;
     float: left;
   }
 
-  /* line 473, ../scss/cinemawedding.scss */
+  /* line 478, ../scss/cinemawedding.scss */
   .right-foot {
     width: 20%;
     float: right;
   }
-  /* line 476, ../scss/cinemawedding.scss */
+  /* line 481, ../scss/cinemawedding.scss */
   .right-foot img {
     width: 20%;
     float: left;
     margin-right: 20px;
   }
-  /* line 481, ../scss/cinemawedding.scss */
+  /* line 486, ../scss/cinemawedding.scss */
   .right-foot p {
     float: right;
     width: 70%;
     font-size: 14px;
   }
-  /* line 487, ../scss/cinemawedding.scss */
+  /* line 492, ../scss/cinemawedding.scss */
   .right-foot div {
     display: inline-block;
     margin-bottom: 10px;
   }
 }
 @media (min-width: 800px) {
-  /* line 495, ../scss/cinemawedding.scss */
+  /* line 500, ../scss/cinemawedding.scss */
   .headingbox {
     width: 80%;
     margin: 0 auto;
     padding: 1em;
   }
-  /* line 500, ../scss/cinemawedding.scss */
+  /* line 505, ../scss/cinemawedding.scss */
   .headingbox h1 {
     text-align: center;
   }
 
-  /* line 505, ../scss/cinemawedding.scss */
+  /* line 510, ../scss/cinemawedding.scss */
   .first-ul {
     display: block;
     margin-right: 50px;
   }
-  /* line 509, ../scss/cinemawedding.scss */
+  /* line 514, ../scss/cinemawedding.scss */
   .first-ul li {
     list-style-type: none;
     float: left;
     margin-left: 10px;
   }
-  /* line 514, ../scss/cinemawedding.scss */
+  /* line 519, ../scss/cinemawedding.scss */
   .first-ul a {
     text-decoration: none;
     color: black;
   }
 
-  /* line 521, ../scss/cinemawedding.scss */
+  /* line 526, ../scss/cinemawedding.scss */
   .mobile-menu {
     display: none;
   }
 
-  /* line 524, ../scss/cinemawedding.scss */
+  /* line 529, ../scss/cinemawedding.scss */
   .left-foot {
     width: 70%;
     float: left;
   }
 
-  /* line 528, ../scss/cinemawedding.scss */
+  /* line 533, ../scss/cinemawedding.scss */
   .right-foot {
     width: 20%;
     float: right;
   }
-  /* line 531, ../scss/cinemawedding.scss */
+  /* line 536, ../scss/cinemawedding.scss */
   .right-foot img {
     width: 20%;
     float: left;
     margin-right: 20px;
   }
-  /* line 536, ../scss/cinemawedding.scss */
+  /* line 541, ../scss/cinemawedding.scss */
   .right-foot p {
     float: right;
     width: 70%;
     font-size: 14px;
   }
-  /* line 542, ../scss/cinemawedding.scss */
+  /* line 547, ../scss/cinemawedding.scss */
   .right-foot div {
     display: inline-block;
     margin-bottom: 10px;
