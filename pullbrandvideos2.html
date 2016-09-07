@@ -21,28 +21,41 @@
   </head>
   <body>
                  <div class ="my-nav">
-                  <div class ="nav-clamp clearfix">  
-                  <img class ="logo-img" img src="img/clearlogo.png">
-              <nav>
-                <ul>
-                  <li><a href="">Home</a></li>
-                  <li><a href="">About</a></li>
-                  <li><a href="">Work</a></li>
-                  <li><a href="">Contact</a></li>
-                </ul>
-              </nav>
-              </div> <!--end of nav-clamp -->
+      <img class="logospecial"img src="img/clearlogo.png">
+      <img class ="mobile-menu"img src="img/menubar.svg">
+    <ul class ="first-ul">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="">About</a></li>
+    <li class="drop" ><a href="">Work</a>
+      <span class ="dropdown">
+      <a href ="pullbrandvideos2.html" a class ='drop-link'>  Brand Videos</a>
+      <br> <br>
+      <a href ="weddingfilms.html"a class ="drop-link">Wedding Videos</a>
+    </span>
+
+
+    </li>
+    <li><a href="">Contact</a></li>
+  </ul>
+      </div>
+
+
+  <ul class ="second-ul">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Work</a></li>
 
 
 
+    <li><a href="">Contact</a></li>
+  </ul>
 
-                 </div> <!--end of my-nav -->
 
                  <div class ="wed-section1">
                   <h1>Brand Films</h1>
                   <p>My favorite thing is listening to why you do things, watching your face light up and your voice change as you get excited about what you’re doing,  telling the world who you are and explaining your purpose. This isn’t marketing. This is focusing your brand story so it’s engaging, entertaining, visually beautiful, and makes an impact on the audience. Your brand story isn’t just about what you do, it’s about who you are and why…</p>
 
-                     <video id ="pullintro" width="100%" video poster = "img/image13.jpg"  muted loop autoplay>
+                     <video id ="pullintro" width="100%" video poster = "img/image13.jpg"  muted loop autoplay controls>
       <source src ="img/pullvideo.mp4" type ="video/mp4">
          <source src ="img/pullvideo.webm" type ="video/webm">
      </video>
@@ -89,7 +102,7 @@ We want clients that don’t have to hide behind marketing speak and statistics.
 We work very well with non-profits because of the wealth of stories they have. But we also love working with small businesses that have a great foundation of passion and hard work to tell the world about.</p>
   </div>
   <div class="col span_1_of_2">
-   <img src="img/image13.jpg">
+   <img src="img/pushpic.png">
   </div>
 </div>
 
@@ -99,7 +112,7 @@ We work very well with non-profits because of the wealth of stories they have. B
 Our films start at $1500 and it depends completely on how many shoot days it takes us to get the story. On average our clients invest $3000 on their film.</p>
   </div>
   <div class="col span_1_of_2 ">
-  <img src="img/billgrant.jpg">
+  <img src="img/Image10.jpg">
   </div>
 </div>
 
@@ -156,14 +169,28 @@ Columbia, SC 29201</p></div>
 
 
 
-
-
       </body>
                 
                   <script src="node_modules/jquery/dist/jquery.min.js"></script>
 
                   
                   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+                  <script>
+$(document).ready(function(){
+    $(".mobile-menu").click(function(){
+        $(".second-ul").toggleClass("open");
+
+        
+    });
+});
+</script>
+
+
+
+
+                  
                  
                 </body>
               </html>

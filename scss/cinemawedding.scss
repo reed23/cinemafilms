@@ -1,10 +1,41 @@
 
+
+
+.footer-head{
+	font-family: 'Montserrat', sans-serif;
+	padding-top:20px;
+}
+
+
+.first-ul > .drop-link{
+
+	font-size:10px;
+}
+
+
+
+
+.dropdown{
+	display:none;
+
+    position: absolute;
+    z-index: 3000;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+
+
+}
+
+.drop:hover > .dropdown{
+	display:block;
+}
+
 .group1{
 	img{
 		max-width: 100%;
 	}
 }
-
 
 
 .pic-button:hover{
@@ -93,6 +124,7 @@ h1{
 	display: block;
 	float:left;
 	margin: 1% 0 1% 0%;
+	position:relative;
 }
 .col1:first-child { margin-left: 0; }
 
@@ -143,7 +175,7 @@ h1{
 	width:35%;
 	max-width:250px;
 	max-height:100px;
-	margin:10px;
+	margin:20px;
 
 }
 
@@ -193,10 +225,11 @@ h1{
 
 .mobile-menu{
 display:block;
-width:50px;
+width:30px;
 height:50px;
 float:right;
 cursor:pointer;
+margin:20px;
 }
 .my-form{
 input{
@@ -266,8 +299,9 @@ background-color:#e4e5e6;
 position: absolute;
     z-index: 1000;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 20px;
+    top:0;
 h1{
 color: black;
 text-align: center;
@@ -284,10 +318,11 @@ color:black;
 position: absolute;
     z-index: 2;
     text-align: center;
+    top: 0;
   
  
     right: 0;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-right: 100px;
 h1{
 color: black;
@@ -335,9 +370,10 @@ p{
 color: red;
 }
 h1{
-color:red;
-text-align:center;
-font-size:3.0em;
+color: red;
+    text-align: center;
+    font-size: 3em;
+    margin: 21px auto;
 }
 }
 .my-container{
@@ -413,19 +449,6 @@ margin: 1% 0 1% 0%;
 	padding:1em;
 }
 
-	.first-ul{
-		display: block;
-		float: right;
-
-		li{
-			float: left;
-			margin-left: 10px;
-			margin-top: 10px;
-		}
-		a{
-			font-size: 20px;
-		}
-	}
 
 .overlay1{
 display:none;
@@ -451,6 +474,16 @@ margin:0 auto;
 width:80%;
 padding:1em;
 margin:0 auto;
+
+h1{
+	text-align:center;
+}
+
+p{
+	    width: 80%;
+    padding: 1em;
+    margin: 0 auto
+}
 img{
 width: 100%;
 }
@@ -495,7 +528,109 @@ margin-bottom: 10px;
 }
 }
 }
+
+
 @media (min-width: 800px) {
+
+
+.inside-pic{
+position: absolute;
+    z-index: 1000;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 20px;
+h1{
+color: black;
+text-align: center;
+background-color:white;
+}
+p{
+color:black;
+	background-color:white;
+	font-size:20px;
+}
+
+}
+.inside-pic2{
+position: absolute;
+    z-index: 2;
+    text-align: center;
+  
+ 
+    right: 0;
+    margin-top: 150px;
+    margin-right: 100px;
+h1{
+color: black;
+text-align: center;
+background-color:white;
+}
+p{
+	color:black;
+	background-color:white;
+}
+}
+
+
+
+
+
+	.first-ul{
+		display: block;
+		float: right;
+		margin-right: 150px;
+
+
+		li{
+			float: left;
+			margin-left: 30px;
+			margin-top: 30px;
+			list-style-type: none;
+		}
+		a{
+			font-size: 24px;
+			text-decoration:none;
+			color:black;
+		}
+		.drop-link{
+font-size: 18px;
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px
+		}
+	}
+
+
+
+
+.text-box{
+z-index:2;
+position:absolute;
+background:white;
+top:0;
+bottom:0;
+left:0;
+right:0;
+height:25%;
+opacity:0.5;
+margin-top:250px;
+text-align:center;
+p{
+color: red;
+}
+h1{
+color: red;
+    text-align: center;
+    font-size: 5em;
+    margin: 21px auto;
+}
+}
+
+
+
+
+
 
 	.headingbox{
 		width: 80%;
@@ -507,20 +642,6 @@ margin-bottom: 10px;
 		}
 	}
 
-.first-ul{
-	display:block;
-	margin-right:50px;
-
-	li{
-		list-style-type: none;
-		float: left;
-		margin-left: 10px;
-	}
-	a{
-		text-decoration: none;
-		color: black;
-	}
-}
 
 
 .mobile-menu{
@@ -549,6 +670,7 @@ display: inline-block;
 margin-bottom: 10px;
 }
 }
+
 }
 @media (min-width: 1000px) {
 }
